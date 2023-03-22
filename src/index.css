@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-  --color-bg-nav: #F78B00;
-  --color-bg-card: #ededed;
+  --color-bg-primary: #F78B00;
+  --color-bg-secundary: #FFFFFF;
+  --color-bg-terciary: #ededed;
   --color-bg-btn: #00285F;
+
 
   --color-font-primary: #00285F;
   --color-font-sencundary: #FFFFFF;
@@ -12,7 +14,7 @@
   --color-border-placeholder: #A7A7A7;
 
   --color-font-placeholder: #A7A7A7;
-  --color-bg-placeholder: #FFFFFF;
+
 
 }
 
@@ -23,17 +25,30 @@
   font-family: 'Roboto'sans-serif;
 }
 
+a, a:hover {
+  color: unset;
+  text-decoration: none;
+
+}
+
+html, body {
+  background-color: var(--color-bg-secundary);
+}
+
+main {
+  padding: 0 20px;
+}
+
+nav{
+  height: 70px;
+  background: var(--color-bg-primary);
+  display: flex;
+
+}
+
 .cartop-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
 
-  nav{
-    font-weight: 700;
-    font-size: 24px;
-    padding: 20px;
-    background-color: var(--color-bg-nav);
-    color: var(--color-font-primary);
-}
-  

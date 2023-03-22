@@ -1,8 +1,12 @@
 import Carrostop from "./routes/Carrostop";
 
-export default  function App() {
-  
+
+
+export default function App() {
   return (
-<Carrostop/>
-  )
+    <Carrostop/>
+      )
+ 
 }
+
+

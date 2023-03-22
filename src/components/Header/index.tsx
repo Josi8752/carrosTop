@@ -1,11 +1,16 @@
-
-export default function Header(){
+import './styles.css';
+export default function Header() {
     return (
-        
+
         <header>
-            <nav className='cartop-container'>
-                <h1>Carros Top</h1>
+            <nav>
+                <div className="cartop-container title-header">
+                    <h1>Carros Top</h1>
+                </div>
+
             </nav>
+
+
         </header>
     )
 }

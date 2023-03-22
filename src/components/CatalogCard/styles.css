@@ -1,0 +1,6 @@
+.cartop-card{
+    width: 300px;
+    height: 347px;
+    border-radius: 10px;
+    background-color: var(--color-bg-terciary);
+  }
