@@ -1,12 +1,12 @@
-import Carrostop from "./routes/Carrostop";
+import Carrostop from "./routes/Catalogcarrostop";
 
 
 
 export default function App() {
   return (
-    <Carrostop/>
-      )
- 
+    <Carrostop />
+  )
+
 }
 
 

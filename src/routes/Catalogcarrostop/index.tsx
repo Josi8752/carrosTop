@@ -8,13 +8,19 @@ export default function Carrostop() {
     return (
 
         <>
-            <Header/>
+            <Header />
             <main>
                 <section id="cartop-section-id" className="cartop-container">
-                    <SearchBar/>
-                    <div>
-                        <CatalogCard/>
-                    </div>
+                    <SearchBar />
+                  <div>
+                  <CatalogCard />
+                     <CatalogCard />
+                     <CatalogCard />
+                     <CatalogCard />
+                  </div>
+                    
+               
+                    
                 </section>
             </main>
         </>

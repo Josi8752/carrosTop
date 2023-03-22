@@ -10,6 +10,7 @@
   --color-font-primary: #00285F;
   --color-font-sencundary: #FFFFFF;
   --color-font-terciary: #000000;
+  --color-font-quaternary:  #585858;
 
   --color-border-placeholder: #A7A7A7;
 
@@ -39,7 +40,9 @@ main {
   padding: 0 20px;
 }
 
-nav{
+
+
+nav {
   height: 70px;
   background: var(--color-bg-primary);
   display: flex;
@@ -52,3 +55,12 @@ nav{
   margin: 0 auto;
 }
 
+/*btn---------------*/
+ .cartop-btn{
+  background-color: var(--color-bg-btn);
+  border: none;
+  color: var(--color-font-sencundary);
+  font-weight: 700;
+  text-transform: uppercase;
+
+ }
