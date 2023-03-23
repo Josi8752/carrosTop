@@ -1,8 +1,4 @@
-.cartop-search-bar {
-    display: flex;
-    margin: 40px 10px;
 
-}
 
 .cartop-search-bar input {
     width: calc(100% - 80px);

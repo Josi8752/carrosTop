@@ -37,7 +37,7 @@ html, body {
 }
 
 main {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 
@@ -55,12 +55,12 @@ nav {
   margin: 0 auto;
 }
 
-/*btn---------------*/
- .cartop-btn{
-  background-color: var(--color-bg-btn);
-  border: none;
-  color: var(--color-font-sencundary);
-  font-weight: 700;
-  text-transform: uppercase;
 
- }
+@media (min-width: 576px) {
+  main {
+    padding: 0 20px;
+  }
+  
+}
+
+

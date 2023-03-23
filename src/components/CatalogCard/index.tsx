@@ -1,5 +1,6 @@
 import './styles.css';
 import carImg from '../../assets/car.png';
+import CarBtn from '../btn';
 
 
 export default function CatalogCard() {
@@ -7,18 +8,16 @@ export default function CatalogCard() {
 
 
         <div className="cartop-card">
+
+            <img src={carImg} alt="Carro" />
+
+            <h3>Audi Supra TT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
             <div>
-                <img src={carImg} alt="Carro" />
-                <div className='title-h2-catalog'>
-                    <h2>Audi Supra TT</h2>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                </div>
-                <div className='cartop-btn-submit'>
-                    <button type='submit' className="cartop-btn">Comprar</button>
-                </div>
+                <CarBtn />
             </div>
+
         </div>
+
     );
 }

@@ -1,22 +1,20 @@
 .cartop-card {
-  width: 300px;
   height: 347px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 10px;
   background-color: var(--color-bg-terciary);
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  margin: 40px -10px;
 
 }
 
 .cartop-card img {
-  width: 222px;
+  width: 220px;
   height: 165px;
-  margin: 14px 43px 8px 40px;
+  margin: 14px 36px 8px 20px;
 }
 
-.title-h2-catalog {
+.cartop-card h3 {
   height: 21px;
   align-items: center;
   font-size: 18px;
@@ -29,17 +27,19 @@
   color: var(--color-font-quaternary);
   font-size: 14px;
   font-weight: 400;
-  margin: 16px 22px 38px 14px;
+  margin: 14px 14px 0 22px;
 
 }
 
 .cartop-card button {
   width: 260px;
   height: 40px;
-  border-radius: 5px
+  border-radius: 5px;
+  margin: 38px 15px;
 }
 
-.cartop-btn-submit {
-  text-align: center;
-  margin: 38px 22px 15px 20px;
+@media (min-width: 576px) {
+  .cartop-card p {
+    font-size: 12px;
+  }
 }
